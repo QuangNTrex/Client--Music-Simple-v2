@@ -1,0 +1,29 @@
+.Bottombar {
+  width: 100%;
+  height: var(--height-bottom-bar);
+  background-color: var(--info-color-darkest);
+  color: #e5beec;
+  padding: 1rem;
+}
+.Bottombar__navbar-links {
+  display: flex;
+  justify-content: space-around;
+}
+.Bottombar__navbar-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: #e5beec;
+}
+.Bottombar__navbar-link.active {
+  color: #ecbede;
+}
+.Bottombar__navbar-link i {
+  font-size: 24px;
+}
+.Bottombar__navbar-link p {
+  font-size: 11px;
+}

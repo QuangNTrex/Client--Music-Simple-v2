@@ -1,0 +1,11 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--height-bottom-bar));
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--info-color-lighter);
+
+  padding: var(--section-padding);
+  padding-right: 0;
+}

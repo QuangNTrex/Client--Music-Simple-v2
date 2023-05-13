@@ -1,0 +1,32 @@
+.Playlist > p {
+  margin: 2rem;
+}
+.Playlist__links {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem; */
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+.Playlist__links_link {
+  text-decoration: none;
+  color: var(--info-color);
+  border-radius: 8px;
+  width: 9rem;
+  height: 9rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  background-color: var(--primary-color-hover);
+}
+.Playlist__links_link i {
+  font-size: 2.5rem;
+}
+.Playlist__links_link p {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,20 @@
+.SystemSetting .wrap {
+  padding: 1rem;
+}
+.SystemSetting__setting {
+  margin-bottom: 2rem;
+}
+.SystemSetting__setting .wrap-setting {
+  padding: 1rem;
+}
+.SystemSetting .each-setting {
+  display: flex;
+  justify-content: space-between;
+}
+/* audio format */
+.SystemSetting .each-setting .select {
+  outline: 0;
+  border: 0;
+  background-color: var(--primary-color);
+  color: var(--info-color);
+}

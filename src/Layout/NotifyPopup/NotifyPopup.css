@@ -1,0 +1,49 @@
+.NotifyPopup {
+  position: absolute;
+  width: 70vw;
+  padding: 1rem;
+  border-radius: 3rem;
+
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  color: white;
+  border: 1px solid white;
+}
+.NotifyPopup .text {
+  text-align: center;
+  font-size: 11px;
+}
+.NotifyPopup.NOTIFY {
+  background-color: #28a7467b;
+}
+.NotifyPopup.ERROR {
+  background-color: #dc354673;
+}
+.NotifyPopup.WARNING {
+  background-color: #ffc10773;
+}
+
+.NotifyPopup.hide {
+  animation: mymove 0.5s forwards;
+  border: 0;
+}
+@keyframes mymove {
+  to {
+    width: 0;
+    padding: 0;
+  }
+}
+
+.NotifyPopup.show {
+  animation: myshow 0.5s forwards;
+}
+@keyframes myshow {
+  from {
+    width: 0;
+    padding: 0;
+  }
+  to {
+  }
+}

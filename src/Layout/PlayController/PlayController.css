@@ -1,0 +1,36 @@
+.PlayController {
+  position: absolute;
+  bottom: var(--height-bottom-bar);
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 4rem;
+  background-color: var(--info-color-darkest);
+  color: var(--info-color-lighter);
+  border-bottom: 1px solid #ffffff58;
+
+  padding: 1rem;
+}
+.PlayController__wrap-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+.PlayController__wrap-info .thumbnail {
+  width: 50px;
+}
+.PlayController__wrap-info .title {
+  font-size: 14px;
+}
+.PlayController__wrap-button {
+  display: flex;
+  gap: 1rem;
+}
+.PlayController__wrap-button i {
+  font-size: 1.5rem;
+}
